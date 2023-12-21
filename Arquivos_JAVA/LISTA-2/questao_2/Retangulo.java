@@ -1,4 +1,4 @@
-package questao2;
+package questao_2;
 
 public class Retangulo {
 	private double altura;

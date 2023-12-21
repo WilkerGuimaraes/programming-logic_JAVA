@@ -1,4 +1,4 @@
-package questao1;
+package questao_1;
 
 public class PessoaTeste {
 	public static void main(String[] args) {
