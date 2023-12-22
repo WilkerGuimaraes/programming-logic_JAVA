@@ -1,15 +1,13 @@
 package questao_4;
 
-import java.util.Date;
-
 public class Pedidos {
 	private static int proximoNumero = 1;
 	private int numero;
-	private Date data;
+	private String data;
 	private String cliente;
 	private double valor;
 	
-	public Pedidos(Date data, String cliente, double valor) {
+	public Pedidos(String data, String cliente, double valor) {
 		this.numero = proximoNumero++;
 		this.cliente = cliente;
 		this.data = data;
@@ -22,14 +20,14 @@ public class Pedidos {
 	public String getCliente() {
 		return cliente;
 	}
-	public Date data() {
+	public String data() {
 		return data;
 	}
 	public double getValor() {
 		return valor;
 	}
 	
-	public String toString() {
-		return "Pedido: " + numero + " | " + "Data: " + data + " | " + "Cliente: " + cliente + " | " + "Valor: " + valor;
+	public void exibirDetalhes() {
+		System.out.println("Pedido: " + numero + " | " + "Data: " + data + " | " + "Cliente: " + cliente + " | " + "Valor: " + valor);
 	}
 }
