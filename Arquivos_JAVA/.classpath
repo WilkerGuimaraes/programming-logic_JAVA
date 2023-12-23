@@ -8,5 +8,7 @@
 	<classpathentry kind="src" path="LISTA-2"/>
 	<classpathentry kind="src" path="LISTA-3"/>
 	<classpathentry kind="src" path="LISTA-4"/>
+	<classpathentry kind="src" path="LISTA-5"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
