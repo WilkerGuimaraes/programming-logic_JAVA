@@ -1,4 +1,0 @@
-Criar uma classe contendo um método estático que receba um conjunto de 11 números e retorne no formato de CPF. Dica: Precisará utilizar os pacotes abaixo:
-
-	import java.text.ParseException;
-	import javax.swing.text.MaskFormatter;
