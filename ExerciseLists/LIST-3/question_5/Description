@@ -1,4 +1,0 @@
-Create a class containing a static method that receives a set of 11 numbers and returns in CPF format. Tip: You will need to use the packages below:
-
-	import java.text.ParseException;
-	import javax.swing.text.MaskFormatter;
